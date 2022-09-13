@@ -34,7 +34,6 @@ spec:
     params:
       - name: repo_url
       - name: revision
-      - name: image_name
     workspaces:
       - name: source
       - name: basic-auth
