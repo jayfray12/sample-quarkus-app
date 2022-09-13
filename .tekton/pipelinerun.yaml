@@ -30,12 +30,13 @@ spec:
       value: "{{ repo_url }}"
     - name: revision
       value: "{{ revision }}"
+    - name: image_name
+      value: quay.io/jfroehli/assemble-quarkus
   pipelineSpec:
     params:
       - name: repo_url
       - name: revision
       - name: image_name
-        value: quay.io/jfroehli/assemble-quarkus
     workspaces:
       - name: source
       - name: basic-auth
