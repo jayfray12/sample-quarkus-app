@@ -1,7 +1,7 @@
 # Sample Quarkus Application
 
 ## Description
-Test
+
 This application is a Quarkus implementation of the Values API application from [sample-dotnet-app](https://github.com/saharsh-samples/sample-dotnet-app) repository. The application was created by following the [official guides](https://quarkus.io/get-started/) published by Quarkus. The API exposes the following endpoints:
 
 - `GET /api/values`
